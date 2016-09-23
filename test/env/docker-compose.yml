@@ -1,0 +1,6 @@
+version: "2"
+services:
+  microscopic-zeromq-transport:
+    build:
+      context: ../../
+      dockerfile: test/env/Dockerfile
